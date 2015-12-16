@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-module-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "module.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "babel-register": "^6.3.13",
+    "chai": "^3.4.1",
+    "rewire": "^2.5.1"
+  }
+}
